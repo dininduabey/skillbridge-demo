@@ -64,7 +64,7 @@ Configuring DNS records (e.g., A or CNAME)
 Verifying ownership
 
 📁 Project Structure (Simplified)
-
+```
 skillbridge-demo/
 ├── public/ # Static assets
 ├── src/ # Main source code
@@ -75,7 +75,7 @@ skillbridge-demo/
 ├── index.html
 ├── tailwind.config.ts
 └── vite.config.ts
-
+```
 💡 Features
 Real-time job recommendations
 
