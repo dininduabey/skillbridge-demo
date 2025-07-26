@@ -1,78 +1,88 @@
-<<<<<<< HEAD
-# Welcome to your Lovable project
+SkillBridge Demo
+This repository contains the frontend demo for the SkillBridge job recommendation system. It showcases an interactive user interface designed to help users discover relevant job opportunities based on skills, preferences, and profile data.
 
-## Project info
+🚀 Project Overview
+The goal of this project is to demonstrate the job matching algorithm through a responsive and modern web interface. It includes dynamic components, reusable UI elements, and smooth navigation for an optimal user experience.
 
-**URL**: https://lovable.dev/projects/d429d9ee-8ebd-4095-8070-ce51e817f35d
+🔧 Tech Stack
+This project is built with the following modern technologies:
 
-## How can I edit this code?
+React – A JavaScript library for building user interfaces
 
-There are several ways of editing your application.
+TypeScript – Strongly-typed JavaScript for scalable, maintainable code
 
-**Use Lovable**
+Vite – Fast and lightweight development server and build tool
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d429d9ee-8ebd-4095-8070-ce51e817f35d) and start prompting.
+Tailwind CSS – Utility-first CSS framework for responsive design
 
-Changes made via Lovable will be committed automatically to this repo.
+shadcn/ui – Beautifully designed React components built with Radix UI and Tailwind
 
-**Use your preferred IDE**
+🛠️ Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+To run the project locally, ensure you have Node.js and npm installed. Then follow the steps below:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# 1. Clone the repository
 
-Follow these steps:
+git clone <https://github.com/dininduabey/skillbridge-demo.git>
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 2. Navigate into the project directory
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd skillbridge-demo
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Install dependencies
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+npm install
+
+# 4. Start the development server
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+The development server will start with auto-reloading and a local preview, usually available at http://localhost:3000
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+📦 Deployment
+This project can be deployed on any modern frontend hosting platform such as:
 
-**Use GitHub Codespaces**
+Vercel
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Netlify
 
-## What technologies are used for this project?
+Render
 
-This project is built with:
+GitHub Pages (with Vite config adjustments)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Make sure to build the project before deploying:
 
-## How can I deploy this project?
+npm run build
 
-Simply open [Lovable](https://lovable.dev/projects/d429d9ee-8ebd-4095-8070-ce51e817f35d) and click on Share -> Publish.
+🌐 Custom Domain Setup
+To set up a custom domain, refer to your hosting provider’s documentation. Typically, this involves:
 
-## Can I connect a custom domain to my Lovable project?
+Adding a custom domain in the host dashboard
 
-Yes, you can!
+Configuring DNS records (e.g., A or CNAME)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Verifying ownership
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-=======
-# skillbridge-demo
-Frontend demo for SkillBridge job recommendation system. Built with TypeScript to showcase job matching algorithms and user interface design.
->>>>>>> 0532ebb936a48b5947d211d749f3d1dc7798e8e2
+📁 Project Structure (Simplified)
+
+skillbridge-demo/
+├── public/ # Static assets
+├── src/ # Main source code
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page-level components
+│ ├── utils/ # Helper functions
+│ └── main.tsx # Entry point
+├── index.html
+├── tailwind.config.ts
+└── vite.config.ts
+
+💡 Features
+Real-time job recommendations
+
+Search and filtering functionality
+
+Clean, responsive UI
+
+Modular code structure
+
+Fast development with hot reloading
