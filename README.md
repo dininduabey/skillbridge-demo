@@ -1,23 +1,19 @@
 SkillBridge Demo
 This repository contains the frontend demo for the SkillBridge job recommendation system. It showcases an interactive user interface designed to help users discover relevant job opportunities based on skills, preferences, and profile data.
 
-🚀 Project Overview
+##Project Overview
 The goal of this project is to demonstrate the job matching algorithm through a responsive and modern web interface. It includes dynamic components, reusable UI elements, and smooth navigation for an optimal user experience.
 
-🔧 Tech Stack
+##Tech Stack
 This project is built with the following modern technologies:
 
-React – A JavaScript library for building user interfaces
+1. React – A JavaScript library for building user interfaces
+2. TypeScript – Strongly-typed JavaScript for scalable, maintainable code
+3. Vite – Fast and lightweight development server and build tool
+4. Tailwind CSS – Utility-first CSS framework for responsive design
+5. shadcn/ui – Beautifully designed React components built with Radix UI and Tailwind
 
-TypeScript – Strongly-typed JavaScript for scalable, maintainable code
-
-Vite – Fast and lightweight development server and build tool
-
-Tailwind CSS – Utility-first CSS framework for responsive design
-
-shadcn/ui – Beautifully designed React components built with Radix UI and Tailwind
-
-🛠️ Getting Started
+##Getting Started
 
 To run the project locally, ensure you have Node.js and npm installed. Then follow the steps below:
 
@@ -39,29 +35,23 @@ npm run dev
 
 The development server will start with auto-reloading and a local preview, usually available at http://localhost:3000
 
-📦 Deployment
+##Deployment
 This project can be deployed on any modern frontend hosting platform such as:
 
-Vercel
-
-Netlify
-
-Render
-
-GitHub Pages (with Vite config adjustments)
-
-Make sure to build the project before deploying:
-
+1. Vercel
+2. Netlify
+3. Render
+4. GitHub Pages (with Vite config adjustments)
+5. Make sure to build the project before deploying:
+```
 npm run build
-
-🌐 Custom Domain Setup
+```
+###Custom Domain Setup
 To set up a custom domain, refer to your hosting provider’s documentation. Typically, this involves:
 
-Adding a custom domain in the host dashboard
-
-Configuring DNS records (e.g., A or CNAME)
-
-Verifying ownership
+1. Adding a custom domain in the host dashboard
+2. Configuring DNS records (e.g., A or CNAME)
+3. Verifying ownership
 
 📁 Project Structure (Simplified)
 ```
@@ -77,12 +67,8 @@ skillbridge-demo/
 └── vite.config.ts
 ```
 💡 Features
-Real-time job recommendations
-
-Search and filtering functionality
-
-Clean, responsive UI
-
-Modular code structure
-
-Fast development with hot reloading
+1. Real-time job recommendations
+2. Search and filtering functionality
+3. Clean, responsive UI
+4. Modular code structure
+5. Fast development with hot reloading
